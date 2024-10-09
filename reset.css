@@ -1,0 +1,59 @@
+/* Reset de estilos para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%; /* Tamanho padrão da fonte */
+}
+
+body {
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    background-color: #eaeaea;
+}
+
+/* Elementos de lista */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Imagens */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Tabelas */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Botões */
+button {
+    cursor: pointer;
+}
+
+/* Formulários */
+input,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    margin: 0;
+}
+
+/* Elementos de cabeçalho */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}

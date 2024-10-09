@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações dos Livros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        .book {
+            margin-bottom: 30px;
+            padding: 15px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        p {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Livros de Ed e Loreine Warren</h1>
+
+    <div class="book">
+        <h2>O Demonologista</h2>
+        <img src="caminho/para/imagem_demonologista.jpg" alt="Capa de O Demonologista" width="300" height="400">
+        <p><strong>Descrição:</strong> Este livro explora as experiências reais dos renomados investigadores paranormais Ed e Loreine Warren, oferecendo um vislumbre do oculto e dos eventos sobrenaturais que eles enfrentaram em suas investigações.</p>
+    </div>
+
+    <div class="book">
+        <h2>O Ocultismo e a Magia</h2>
+        <img src="caminho/para/imagem_ocultismo.jpg" alt="Capa de O Ocultismo e a Magia" width="300" height="400">
+        <p><strong>Descrição:</strong> Uma análise profunda sobre as práticas ocultas e suas implicações, revelando histórias e fenômenos que desafiam a lógica.</p>
+    </div>
+
+    <div class="book">
+        <h2>A Casa dos Horrores</h2>
+        <img src="caminho/para/imagem_casa_horrores.jpg" alt="Capa de A Casa dos Horrores" width="300" height="400">
+        <p><strong>Descrição:</strong> Relato das experiências aterrorizantes em uma das casas mais assombradas da América, onde os Warren enfrentaram forças sobrenaturais.</p>
+    </div>
+</body>
+</html>
